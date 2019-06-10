@@ -1,0 +1,32 @@
+
+.home{
+    padding: 0;
+    margin: 0;
+    background-color: limegreen;
+    font-family: 'Francois One';
+}
+
+.home h2{
+    color: white;
+    font-size: 3.5em;
+}
+
+.home .d-flex{
+    min-height: 85vh;
+    display: flex;
+}
+
+@font-face{
+    font-family: 'Francois One';
+    src: url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+    font-weight: 900 bold;
+}
+
+.anim-appear{
+    opacity: 0.01;
+}
+
+.anim-appear.anim-appear-active{
+    opacity:1;
+    transition: opacity .5s ease-in;
+}
